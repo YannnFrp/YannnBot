@@ -18,6 +18,7 @@ __help__ = """
 ❍ /resume - resume song play
 ❍ /skip - play next song
 ❍ /end - stop music play
+❍ /userbotjoin - invite music assistant to your group
 ❍ /admincache - Refresh admin list
 =>>   *Use*
 1) Add @AkiraAssistant in your group to admin with all permission
