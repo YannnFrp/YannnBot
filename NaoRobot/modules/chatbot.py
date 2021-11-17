@@ -105,13 +105,13 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("akira", "Aco")
-        test = test.replace("Akira", "Aco")
+        test = test.replace("Yannn", "Aco")
+        test = test.replace("Yannn", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Akira")
-        response = response.replace("aco", "Akira")
+        response = response.replace("Aco", "Yannn")
+        response = response.replace("aco", "Yannn")
 
         pro = response
         try:
@@ -162,15 +162,15 @@ async def hmm(client, message):
             except:
                 return
 
-        test = test.replace("Akira", "Aco")
-        test = test.replace("Akira", "Aco")
+        test = test.replace("Yannn", "Aco")
+        test = test.replace("Yannn", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Akira")
-        response = response.replace("aco", "Akira")
-        response = response.replace("Luna", "Akira")
-        response = response.replace("luna", "Akira")
+        response = response.replace("Aco", "Yannn")
+        response = response.replace("aco", "Yannn")
+        response = response.replace("Luna", "Yannn")
+        response = response.replace("luna", "Yannn")
         pro = response
         if not "en" in lan and not lan == "":
             try:
@@ -230,12 +230,12 @@ async def inuka(client, message):
         except:
             return
 
-    test = test.replace("Akira", "Aco")
-    test = test.replace("Akira", "Aco")
+    test = test.replace("Yannn", "Aco")
+    test = test.replace("Yannn", "Aco")
 
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Akira")
-    response = response.replace("aco", "Akira")
+    response = response.replace("Aco", "Yannn")
+    response = response.replace("aco", "Yannn")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -249,7 +249,7 @@ async def inuka(client, message):
 
 
 @pbot.on_message(
-    filters.regex("Akira|akira|tonic|tonic|AKIRA")
+    filters.regex("Yannn|yannn|yann|yan|YANNN")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -301,11 +301,11 @@ async def inuka(client, message):
         except:
             return
 
-    test = test.replace("Akira", "Aco")
-    test = test.replace("Akira", "Aco")
+    test = test.replace("Yannn", "Aco")
+    test = test.replace("Yannn", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Akira")
-    response = response.replace("aco", "Akira")
+    response = response.replace("Aco", "Yannn")
+    response = response.replace("aco", "Yannn")
 
     pro = response
     if not "en" in lan and not lan == "":
